@@ -27,8 +27,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := omni_crespo
-PRODUCT_DEVICE := crespo
+PRODUCT_NAME := omni_corsica
+PRODUCT_DEVICE := corsica
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := Samsung Galaxy Nexus
+PRODUCT_MODEL := Samsung Galaxy Pocket Neo
 PRODUCT_MANUFACTURER := samsung
